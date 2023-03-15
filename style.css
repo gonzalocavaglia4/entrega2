@@ -24,7 +24,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     justify-content: space-around;
     justify-content: center;
     padding-bottom: 20px;
-    padding-left: 50px;
     width: 300px; height: 400px;
     min-width:300px
     
@@ -76,6 +75,7 @@ li img{
 .cartas{
     background-color: rgb(207, 194, 153);
 margin-bottom: 30px;
+
 }
 
 
@@ -83,7 +83,18 @@ margin-bottom: 30px;
     width: 250px;
     height: 350px;
    padding: 10px 10px 10px 10px;
+   max-width: 100%;
+   display: block;
+   margin: 0 auto;
+  
 }
 
-
- 
+.formath{
+    text-align: center;
+}
+.formatp{
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+   
+ }
